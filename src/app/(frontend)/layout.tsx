@@ -1,3 +1,4 @@
+import Footer from "@/components/common/Footer";
 import Navbar from "@/components/common/navbar/Navbar";
 
 interface Props {
@@ -8,6 +9,7 @@ const Layout = ({ children }: Props) => {
 		<main>
 			<Navbar />
 			{children}
+			<Footer />
 		</main>
 	);
 };

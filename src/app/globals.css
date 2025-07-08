@@ -123,3 +123,21 @@ code {
 	background-clip: text;
 	color: transparent;
 }
+
+.mask-gradient::before,
+.mask-gradient::after {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 80px;
+	z-index: 10;
+}
+.mask-gradient::before {
+	left: 0;
+	background: linear-gradient(to right, white, transparent);
+}
+.mask-gradient::after {
+	right: 0;
+	background: linear-gradient(to left, white, transparent);
+}
