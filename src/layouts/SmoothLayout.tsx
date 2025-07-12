@@ -10,7 +10,7 @@ export default function SmoothLayout({
 }) {
 	useEffect(() => {
 		const lenis = new Lenis({
-			lerp: 0.05,
+			lerp: 0.07,
 			smooth: true,
 			direction: "vertical",
 		});

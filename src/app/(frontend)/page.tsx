@@ -7,11 +7,13 @@ import Testimonials from "./_components/testimonials-section/Testimonials";
 import FAQSection from "./_components/FaqSection";
 import OurAchievements from "./_components/OurAchievements";
 import TimelineSteps from "./_components/StrategiesTimeline";
+import Header from "./_components/Header";
 
 const page = () => {
 	return (
 		<main>
 			<SmoothLayout>
+				<Header />
 				<PortfolioVideoAnimation />
 				<OurServices />
 				<SuccessStories />
